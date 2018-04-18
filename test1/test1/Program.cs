@@ -46,16 +46,14 @@ namespace test1
                 Console.WriteLine("太棒了!你很正常");
             }
 
+            if (bmi < 16.5 || bmi > 31.5)
             {
-                if (bmi < 16.5 || bmi > 31.5)
-                {
-                    Console.WriteLine("免役囉");
-                }
+                Console.WriteLine("免役囉");
+            }
 
-                else
-                {
-                    Console.WriteLine("要服役喔");
-                }
+            if (bmi > 16.5 && bmi < 31.5)
+            {
+                Console.WriteLine("要服役喔");
             }
 
             // 暫停螢幕
